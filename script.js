@@ -2,7 +2,7 @@
   let counter = 0;
   document.body.addEventListener("click", () => {
     counter++;
-    if (counter === 1) startGame();
+    if (counter === 25) startGame();
   });
 
   function startGame() {
