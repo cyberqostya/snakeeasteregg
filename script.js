@@ -204,7 +204,7 @@
       }
     });
 
-    document.querySelector('.mobile-controls').addEventListener("touch", (e) => {
+    document.querySelector('.mobile-controls').addEventListener("touchstart", (e) => {
       if (e.target.closest('.mobile-control_left') && snake.dx !== config.sizeCell) {
         snake.dx = -config.sizeCell;
         snake.dy = 0;
